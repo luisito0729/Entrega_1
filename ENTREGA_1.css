@@ -1,0 +1,124 @@
+#contenedor {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(245, 238, 200);
+    border-radius: 10px;
+   }
+   
+   #lateral {
+    width: 20%;  
+    background-color:rgb(245, 238, 200); 
+    float:left; 
+    height: 60px;
+
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-right: black solid;
+
+    text-align: center;
+   }
+
+   #principal {
+    width: 78%;
+    float: right;
+    background-color: rgb(245, 238, 200);
+    height: 60px;
+
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-left: black solid;
+
+    text-align: center;
+   }
+   .highlight {
+   color: black;
+   font-weight: bold; 
+   font-family: Arial, sans-serif;
+   }
+   #separacion {
+    height: 5px;
+    background-color: white;
+   }
+  
+   .clearfix:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+   #lateral_inferior {
+    width: 20%;  
+    background-color:FFCCCC;
+    height: 500px;
+    float:left;
+
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+   }
+   
+   #principal_inferior {
+    width: 78%;
+    height: 500px;
+    float: right;
+   }
+   #footer {
+    background-color: B5DEFF;
+    height: 10%;
+
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+
+    text-align: center;
+    justify-content: center;
+   }
+   #main {
+    background-color: rgb(204, 238, 188);
+    height:82% ;
+
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+
+    text-align: center;
+    justify-content: center;
+   }
+   #sidebar1{
+    height: 50%;
+    border-bottom: black solid;
+    text-align: center;
+    justify-content: center;
+   }
+   #sidebar2{
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+   }
+   #texto1{
+   padding: 185px;
+
+   font-weight: bold; 
+   font-family: Arial, sans-serif;
+  }
+#texto2{
+    padding: 5px;
+
+    font-weight: bold; 
+    font-family: Arial, sans-serif;
+}
+#texto_1{
+    padding: 89px 0px 0px 0px;
+
+    font-weight: bold; 
+    font-family: Arial, sans-serif;
+}
+#texto_2{
+    padding: 68px 0px 0px 0px;
+
+    font-weight: bold; 
+    font-family: Arial, sans-serif;
+}
